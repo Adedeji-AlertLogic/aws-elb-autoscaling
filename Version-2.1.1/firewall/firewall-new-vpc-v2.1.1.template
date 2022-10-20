@@ -106,12 +106,12 @@
       "Key"     : { "Key": "panw-aws.zip" }
     },
     "CidrBlockMap"            : {
-      "VpcCidrBlock"       : { "CidrBlock": "192.168.0.0/16" },
-      "MgmtCidrBlock"      : { "CidrBlockAz1": "192.168.0.0/24", "CidrBlockAz2": "192.168.10.0/24", "CidrBlockAz3": "192.168.20.0/24", "CidrBlockAz4": "192.168.30.0/24" },
-      "UntrustCidrBlock"   : { "CidrBlockAz1": "192.168.1.0/24", "CidrBlockAz2": "192.168.11.0/24", "CidrBlockAz3": "192.168.21.0/24", "CidrBlockAz4": "192.168.31.0/24"},
-      "TrustCidrBlock"     : { "CidrBlockAz1": "192.168.2.0/24", "CidrBlockAz2": "192.168.12.0/24", "CidrBlockAz3": "192.168.22.0/24", "CidrBlockAz4": "192.168.32.0/24" },
-      "NatGwCidrBlock"     : { "CidrBlockAz1": "192.168.100.0/24", "CidrBlockAz2": "192.168.101.0/24", "CidrBlockAz3": "192.168.102.0/24", "CidrBlockAz4": "192.168.103.0/24" },
-      "LambdaCidrBlock"    : { "CidrBlockAz1": "192.168.200.0/24", "CidrBlockAz2": "192.168.201.0/24", "CidrBlockAz3": "192.168.202.0/24", "CidrBlockAz4": "192.168.203.0/24" }
+      "VpcCidrBlock"       : { "CidrBlock": "10.98.0.0/16" },
+      "MgmtCidrBlock"      : { "CidrBlockAz1": "10.98.0.0/24", "CidrBlockAz2": "10.98.10.0/24", "CidrBlockAz3": "10.98.20.0/24", "CidrBlockAz4": "10.98.30.0/24" },
+      "UntrustCidrBlock"   : { "CidrBlockAz1": "10.98.1.0/24", "CidrBlockAz2": "10.98.11.0/24", "CidrBlockAz3": "10.98.21.0/24", "CidrBlockAz4": "10.98.31.0/24"},
+      "TrustCidrBlock"     : { "CidrBlockAz1": "10.98.2.0/24", "CidrBlockAz2": "10.98.12.0/24", "CidrBlockAz3": "10.98.22.0/24", "CidrBlockAz4": "10.98.32.0/24" },
+      "NatGwCidrBlock"     : { "CidrBlockAz1": "10.98.100.0/24", "CidrBlockAz2": "10.98.101.0/24", "CidrBlockAz3": "10.98.102.0/24", "CidrBlockAz4": "10.98.103.0/24" },
+      "LambdaCidrBlock"    : { "CidrBlockAz1": "10.98.200.0/24", "CidrBlockAz2": "10.98.201.0/24", "CidrBlockAz3": "10.98.202.0/24", "CidrBlockAz4": "10.98.203.0/24" }
     },
     "FWInstanceTypeMap" : {
       "TypeM4"            : { "M4xlarge": "m4.xlarge", "M44xlarge": "m4.4xlarge" },
